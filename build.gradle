@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'home.unblock'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.telegram:telegrambots:6.7.0'
+}
